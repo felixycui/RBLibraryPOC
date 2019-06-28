@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBLibraryPOC", "RBLibraryPOC\RBLibraryPOC.csproj", "{844CD199-8EFF-488A-BAB8-59E346D2D3FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRequestEngine", "IRequestEngine\IRequestEngine.csproj", "{730B9140-3B5C-4373-A1A1-2B6844BC8C7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{844CD199-8EFF-488A-BAB8-59E346D2D3FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{844CD199-8EFF-488A-BAB8-59E346D2D3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{844CD199-8EFF-488A-BAB8-59E346D2D3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{844CD199-8EFF-488A-BAB8-59E346D2D3FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{730B9140-3B5C-4373-A1A1-2B6844BC8C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730B9140-3B5C-4373-A1A1-2B6844BC8C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730B9140-3B5C-4373-A1A1-2B6844BC8C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730B9140-3B5C-4373-A1A1-2B6844BC8C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4945EF38-50E2-412B-BE4C-5EAFAD0092C3}
+	EndGlobalSection
+EndGlobal
