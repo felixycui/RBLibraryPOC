@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class ICapModelRequestOptions
+public interface ICapModelRequestOptions
 {
     public ICapModelRequestOptions()
     {

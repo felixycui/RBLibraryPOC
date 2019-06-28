@@ -1,9 +1,10 @@
 ﻿using System;
 
-public class ICapModel
+public interface ICapModel
 {
     private IEnumerable<ICapability> capabilities; 
 
+    // Have parameter of capabilities?
     public ICapModel(IEnumerable<ICapability> capabilities)
 	{
         this.capabilities = capabilities;  
@@ -17,7 +18,7 @@ public class ICapModel
 
     IEnumerable<NavigationProperty> GetNavigationProperties();
 
- 
+    void RegisterCapability(ICapability capability);
 
 
 }
